@@ -1,4 +1,6 @@
 // Update with your config settings.
+// may need to run this if db is not seeing users in testing
+// npx knex migrate:latest --env=testing
 
 module.exports = {
 
